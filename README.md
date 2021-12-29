@@ -22,7 +22,7 @@ import waifupicsAiohttp
 import asyncio
 
 async def main():
-    res = await Request().get_image(type, category)
+    res = await waifupicsAiohttp.Request().get_image(type, category)
     print(res)
     
 loop = asyncio.get_event_loop()
