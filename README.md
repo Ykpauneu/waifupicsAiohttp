@@ -18,11 +18,11 @@ pip install waifupicsAiohttp
 
 # Example:
 ```python
-import waifupicsAiohttp
+from waifupicsAiohttp import Request
 import asyncio
 
 async def main():
-    res = await waifupicsAiohttp.Request().get_image(type, category)
+    res = await Request().get_image(type, category)
     print(res)
     
 loop = asyncio.get_event_loop()
