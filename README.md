@@ -7,7 +7,6 @@ pip install waifupicsAiohttp
 ```
 
 # Requirements
-- asyncio
 - aiohttp
 
 # Types and categories:
